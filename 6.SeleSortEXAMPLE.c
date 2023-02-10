@@ -8,14 +8,14 @@ int main(void){
 int V[10]={34,9,27,46,10,35,22,1,51,99};
 int size=10;
 int perm[size];
-    printf("Lista: \n");
+    printf("V= \n");
     for (int i = 0; i < size; ++i) {
         printf("%d ",V[i]);
 
     }
     printf("\n");
     sequentialSort(V,size,perm);
-    printf("\nLista ordinata: \n");
+    printf("\nV ordinato: \n");
     for (int i = 0; i < size; ++i) {
         printf("%d ",V[perm[i]]);
 
