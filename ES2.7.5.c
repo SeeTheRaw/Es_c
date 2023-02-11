@@ -1,4 +1,4 @@
-/* Si definisca la funzione C in forma ricorsiva che crea la copia di una lista collegata con puntatori*/
+/* Si definisca la funzione C in forma ricorsiva che cancella una lista collegata con puntatori rilasciando la memoria*/
 
 #include <stdio.h>
 #include <stdlib.h>
